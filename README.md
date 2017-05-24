@@ -6,17 +6,20 @@ Please use whatever programming language and framework you feel the most comfort
 
 Feel free to email us if you have any questions.
 
-## Project Description
+## Project description
 
-We need an internal system for our employees to report their business expenses. This will also be used by our accountants for monthly accounting.
+We are building a football tournament management system for our client. Our client has been managing their data in CSV files. We need to provide a system for them to upload their existing data.
 
 ### What your API must do:
 
-- Allow submitting expenses in batch. A sample JSON input named `expenses.json` is included in this repo.
-- Store the expenses in a relational database.
-- Allow querying total expenses amount by categories.
+Features:
 
-The actual API endpoint name and request & response format are up to you.
+- User can upload a list of matches for a tournament. Sample CSV input named `tournament 9 ball.csv` and `tournament 10 ball.csv` are included in this repo.
+- Structure the data in a relational database.
+- Calculate points for each player. A player gets 3 points by winning, 0 point by losing and 1 point with a draw match. If a player gives up, the opponent gets 3 points.
+- User can query matches, filter by player name or tournament name.
+- User can query points and number of won matches, lost matches, drawn matches by player name.
+- The actual API endpoint names and request & response format are up to you.
 
 Your application should be easy to set up, and should not require any non open-source software.
 
