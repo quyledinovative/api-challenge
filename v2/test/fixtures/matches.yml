@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  code: MyString
+  time: 2018-07-19 17:02:57
+  date: 2018-07-19
+  player1: one
+  player2: one
+  score1: 1
+  score2: 1
+  venue: one
+  tournament: one
+
+two:
+  code: MyString
+  time: 2018-07-19 17:02:57
+  date: 2018-07-19
+  player1: two
+  player2: two
+  score1: 1
+  score2: 1
+  venue: two
+  tournament: two
