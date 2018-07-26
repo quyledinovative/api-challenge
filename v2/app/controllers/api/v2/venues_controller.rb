@@ -1,3 +1,4 @@
+# Venue Controller
 class Api::V2::VenuesController < ApplicationController
   before_action :set_venue, only: [:show, :update, :destroy]
 
