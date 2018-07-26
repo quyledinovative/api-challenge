@@ -19,7 +19,7 @@ module Api
       # POST /groups
       def create
         @group = Group.new(group_params)
-
+        byebug
         if @group.save
           render json: @group, status: :created, location: api_v2_group_url(@group)
         else
