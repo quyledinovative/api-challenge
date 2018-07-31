@@ -2,7 +2,7 @@ module Api
   module V2
     # Group Controller
     class GroupsController < ApplicationController
-      before_action :set_group, only: %i[show update destroy]
+      before_action :set_group, only: %i(show update destroy)
 
       # GET /groups
       def index
@@ -19,7 +19,6 @@ module Api
       # POST /groups
       def create
         @group = Group.new(group_params)
-        byebug
         if @group.save
           render json: @group, status: :created, location: api_v2_group_url(@group)
         else

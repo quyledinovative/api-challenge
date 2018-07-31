@@ -1,5 +1,5 @@
 class ::Api::V2::MatchesController < ApplicationController
-  before_action :set_match, only: %i[show update destroy]
+  before_action :set_match, only: %i(show update destroy)
 
   # GET /matches
   def index
